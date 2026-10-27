@@ -1,0 +1,22 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="智都科技 LOGO">
+  <!-- 四旋翼：无人机的四个旋翼 -->
+  <g stroke="#ffffff" stroke-width="2">
+    <circle cx="7" cy="7" r="3.2"/>
+    <circle cx="25" cy="7" r="3.2"/>
+    <circle cx="7" cy="25" r="3.2"/>
+    <circle cx="25" cy="25" r="3.2"/>
+    <!-- Z 字框：顶横、底横、斜对角（无人机机臂） -->
+    <path d="M7 7 H25" stroke-linecap="round"/>
+    <path d="M7 25 H25" stroke-linecap="round"/>
+    <path d="M7 7 L25 25" stroke-linecap="round"/>
+  </g>
+  <!-- 旋翼中心轴点 -->
+  <g fill="#ffffff">
+    <circle cx="7" cy="7" r="1.1"/>
+    <circle cx="25" cy="7" r="1.1"/>
+    <circle cx="7" cy="25" r="1.1"/>
+    <circle cx="25" cy="25" r="1.1"/>
+    <!-- D 字机身：左侧竖笔 + 右侧半圆 -->
+    <path d="M13 10.5 V21.5 A5.5 5.5 0 0 1 13 10.5 Z"/>
+  </g>
+</svg>
